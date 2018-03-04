@@ -8,7 +8,7 @@ function theBeatlesPlay (musicians, instruments) {
   }
   return newArray;
 }
-
+/*
 function johnLennonFacts(facts) {
   var facts = [
   "He was the last Beatle to learn to drive",
@@ -23,7 +23,7 @@ function johnLennonFacts(facts) {
   }
   return newFacts;
 }
-
+*/
 function iLoveTheBeatles(number) {
   var beatles = [];
   do {
@@ -32,4 +32,14 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
 
   return beatles
+}
+
+function johnLennonFacts(arr) {
+   var result= [];
+   var i = 0;
+   while(i < arr.length) {
+     result.push(arr[i] + '!!!')
+     i++;
+   }
+   return result;
 }
