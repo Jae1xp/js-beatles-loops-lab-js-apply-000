@@ -43,3 +43,4 @@ function johnLennonFacts(arr) {
    }
    return result;
 }
+johnLennonFacts(facts);
