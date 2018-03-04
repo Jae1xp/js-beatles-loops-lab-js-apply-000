@@ -1,4 +1,4 @@
-var theBeatlesPlay = function(musicians, instruments) {
+function theBeatlesPlay (musicians, instruments) {
   var allMusicians = [];
   for (var i = 0; i < musicians.length; i++) {
     allMusicians.push(musicians[i] + " plays " + instruments[i]);
@@ -6,7 +6,7 @@ var theBeatlesPlay = function(musicians, instruments) {
   return allMusicians;
 }
 
-var johnLennonFacts = function() {
+function johnLennonFacts() {
   var facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
