@@ -1,10 +1,10 @@
 var musicians = ["John", "Paul", "George", "Ringo"];
-var instruments = ["guitar", "guitar", "bass", "drums"];
+var instruments = ["Guitar", "Bass", "Lead", "drums"];
 
 function theBeatlesPlay (musicians, instruments) {
-  var allMusicians = [];
+  var newArray = [];
   for (var i = 0; i < musicians.length; i++) {
-    allMusicians.push(musicians[i] + " plays " + instruments[i]);
+    newArray.push(musicians[i] + " plays " + instruments[i]);
   }
   return allMusicians;
 }
