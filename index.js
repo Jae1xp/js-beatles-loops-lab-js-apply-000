@@ -1,3 +1,6 @@
+var musicians = ["John", "Paul", "George", "Ringo"];
+var instruments = ["guitar", "guitar", "bass", "drums"];
+
 function theBeatlesPlay (musicians, instruments) {
   var allMusicians = [];
   for (var i = 0; i < musicians.length; i++) {
