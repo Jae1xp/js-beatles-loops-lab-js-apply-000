@@ -18,4 +18,5 @@ var johnLennonFacts = function() {
     newFacts.push(facts[i] + "!!!");
     i++;
   }
+  return newFacts;
 }
